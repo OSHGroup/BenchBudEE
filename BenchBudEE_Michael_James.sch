@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "7 feb 2014"
+Date "10 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -99,15 +99,20 @@ F4 "String +" O R 9600 2800 60
 F5 "String -" I R 9600 3100 60 
 $EndSheet
 $Sheet
-S 8000 1050 1600 1050
+S 8000 1050 1650 1350
 U 52F43E12
 F0 "Fan" 50
 F1 "Fan.sch" 50
-F2 "Power+" I R 9600 1300 60 
-F3 "Power-" I R 9600 1550 60 
-F4 "Tach" I R 9600 1800 60 
-F5 "Tach_out" O L 8000 1300 60 
-F6 "Fan_In" I L 8000 1650 60 
+F2 "Power+" I R 9650 1300 60 
+F3 "Power-" I R 9650 1550 60 
+F4 "Tach" I R 9650 1800 60 
+F5 "Tach_out" O L 8000 2200 60 
+F6 "Fan_In" I L 8000 1300 60 
+F7 "Current Measure" O L 8000 2100 60 
+F8 "MOSI" I L 8000 1550 60 
+F9 "MISO" O L 8000 1650 60 
+F10 "CS_N" I L 8000 1750 60 
+F11 "SCLK" I L 8000 1850 60 
 $EndSheet
 $Sheet
 S 10300 1500 600  5350

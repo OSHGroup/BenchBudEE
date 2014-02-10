@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBudEE_Michael_James
 LIBS:BenchBudEE_Michael_James-cache
 EELAYER 27 0
 EELAYER END

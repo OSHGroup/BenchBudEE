@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title ""
-Date "12 feb 2014"
+Date "14 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -276,6 +276,8 @@ F 3 "~" H 9850 2900 60  0000 C CNN
 	1    9850 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 1850 1300 0    60   ~ 0
+I think 1 and 2 should be hooked up together
 Wire Wire Line
 	1550 1600 2250 1600
 Wire Wire Line
@@ -355,27 +357,25 @@ Wire Wire Line
 	10300 3250 10300 3500
 Connection ~ 9850 3250
 $Comp
-L +12P #PWR?
-U 1 1 52FB2674
+L +12V #PWR?
+U 1 1 52FD9E6A
 P 10300 1850
-F 0 "#PWR?" H 10300 1820 30  0001 C CNN
-F 1 "+12P" H 10300 1950 30  0000 C CNN
+F 0 "#PWR?" H 10300 1800 20  0001 C CNN
+F 1 "+12V" H 10300 1950 30  0000 C CNN
 F 2 "" H 10300 1850 60  0000 C CNN
 F 3 "" H 10300 1850 60  0000 C CNN
 	1    10300 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L -12P #PWR?
-U 1 1 52FB2683
+L -12V #PWR?
+U 1 1 52FD9E79
 P 10300 3500
 F 0 "#PWR?" H 10300 3630 20  0001 C CNN
-F 1 "-12P" H 10300 3600 30  0000 C CNN
+F 1 "-12V" H 10300 3600 30  0000 C CNN
 F 2 "" H 10300 3500 60  0000 C CNN
 F 3 "" H 10300 3500 60  0000 C CNN
 	1    10300 3500
 	-1   0    0    1   
 $EndComp
-Text Notes 1850 1300 0    60   ~ 0
-I think 1 and 2 should be hooked up together
 $EndSCHEMATC

@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title ""
-Date "14 feb 2014"
+Date "15 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,9 +48,9 @@ $EndDescr
 Text HLabel 1800 2000 0    60   Input ~ 0
 LED_EN_PWM
 Text HLabel 10300 900  2    60   Output ~ 0
-String +
-Text HLabel 10300 2350 2    60   Input ~ 0
-String -
+LED_STRING+
+Text HLabel 10300 2350 2    60   Output ~ 0
+LED_STRING-
 $Comp
 L AP5726 U?
 U 1 1 52FE2415

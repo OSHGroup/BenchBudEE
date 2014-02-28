@@ -12,14 +12,7 @@
     (nets 1)
   )
 
-  (page USLedger)
-  (title_block 
-    (title BenchBudEE)
-    (rev A)
-    (company "Open Source Hardware Group")
-    (comment 1 "You Rock")
-  )
-
+  (page A3)
   (layers
     (15 F.Cu signal)
     (2 PWR power)
@@ -64,10 +57,9 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1 0.508)
-    (pad_drill 0)
-    (pad_to_mask_clearance 0.254)
-    (solder_mask_min_width 0.127)
+    (pad_size 1.5 1.5)
+    (pad_drill 0.6)
+    (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
